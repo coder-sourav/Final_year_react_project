@@ -1,7 +1,11 @@
 import { makeStyles } from "@material-ui/core";
+export interface StylesProps{
+  height:number;
+
+}
 
 
-export const useFormStyles=makeStyles({
+export const useFormStyles=makeStyles<StylesProps>({
   root:{
     display:"flex",
     justifyContent:"center",
