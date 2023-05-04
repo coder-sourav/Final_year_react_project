@@ -63,7 +63,7 @@ export default function SignUp() {
         </div>
         <div className={classes.textFieldConatiner}>
         <TextField
-          type="text"
+          type="password"
           id="password"
           label="Password"
           variant="outlined"

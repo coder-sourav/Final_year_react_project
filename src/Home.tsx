@@ -1,5 +1,14 @@
-export default function Home(){
+import Footer from "./Footer";
+import { useHistory } from "react-router-dom";
+import { Button } from "@material-ui/core";
+import Hotels from "./Hotels";
 
-    return<div>Home</div>
+export default function Home(){
+    const history=useHistory();
+
+    return(
+     <Hotels/>
+     )
+
 
 }
